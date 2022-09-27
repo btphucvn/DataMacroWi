@@ -15,7 +15,8 @@ namespace DataMacroWi.Service
         {
             DBConnect connect = new DBConnect();
             NpgsqlConnection conn = connect.ConnectPG();
-            string query = "SELECT * FROM YAxis Where unit = '"+unit+"'";
+            unit = unit.ToLower();
+            string query = "SELECT * FROM YAxis Where LOWER(unit) = '"+unit+"'";
             try
             {
                 conn.Open();

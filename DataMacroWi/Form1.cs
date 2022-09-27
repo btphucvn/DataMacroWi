@@ -32,168 +32,163 @@ namespace DataMacroWi
         {
             FillDataController gDPNamController = new FillDataController();
 
-            
-                gDPNamController.FillData(7, "Year", "Value", "Tỷ", "Du lieu vi mo/San Luong/GDP Nam.txt");
-                gDPNamController.FillData(5, "Quarter", "Value", "Tỷ", "Du lieu vi mo/San Luong/GDP Hien Hanh Quy.txt");
-                gDPNamController.FillData(6, "Quarter", "Value", "Tỷ", "Du lieu vi mo/San Luong/GDP So Sanh Quy.txt");
-                gDPNamController.FillData(6, "Quarter", "YoY", "%", "Du lieu vi mo/San Luong/GDP So Sanh Quy YoY.txt");
+
+            //    gDPNamController.FillData(7, "Year", "Value", "Tỷ", "Du lieu vi mo/San Luong/GDP Nam.txt");
+            //    gDPNamController.FillData(5, "Quarter", "Value", "Tỷ", "Du lieu vi mo/San Luong/GDP Hien Hanh Quy.txt");
+            //    gDPNamController.FillData(6, "Quarter", "Value", "Tỷ", "Du lieu vi mo/San Luong/GDP So Sanh Quy.txt");
+            //    gDPNamController.FillData(6, "Quarter", "YoY", "%", "Du lieu vi mo/San Luong/GDP So Sanh Quy YoY.txt");
 
 
 
 
-            gDPNamController.FillData(4, "Year", "Value", "Điểm", "Du lieu vi mo/San Luong/PMI.txt");
+            //gDPNamController.FillData(4, "Year", "Value", "Điểm", "Du lieu vi mo/San Luong/PMI.txt");
 
-            gDPNamController.FillData(3, "Month", "Value", "Điểm", "Du lieu vi mo/Tieu Dung/CPI/CPI_Thang.txt");
-            gDPNamController.FillData(3, "Month", "MoM", "%", "Du lieu vi mo/Tieu Dung/CPI/CPI_Thang_MoM.txt");
-            gDPNamController.FillData(3, "Month", "YoY", "%", "Du lieu vi mo/Tieu Dung/CPI/CPI_Thang_YoY.txt");
-            gDPNamController.FillData(3, "Month", "YoY Ave", "%", "Du lieu vi mo/Tieu Dung/CPI/CPI_Thang_YoYAve.txt");
+            //gDPNamController.FillData(3, "Month", "Value", "Điểm", "Du lieu vi mo/Tieu Dung/CPI/CPI_Thang.txt");
+            //gDPNamController.FillData(3, "Month", "MoM", "%", "Du lieu vi mo/Tieu Dung/CPI/CPI_Thang_MoM.txt");
+            //gDPNamController.FillData(3, "Month", "YoY", "%", "Du lieu vi mo/Tieu Dung/CPI/CPI_Thang_YoY.txt");
+            //gDPNamController.FillData(3, "Month", "YoY Ave", "%", "Du lieu vi mo/Tieu Dung/CPI/CPI_Thang_YoYAve.txt");
 
-            gDPNamController.FillData(1, "Month", "Value", "Tỷ", "Du lieu vi mo/Tieu Dung/Ban Le HH DV/Value.txt");
-            gDPNamController.FillData(1, "Month", "MoM", "%", "Du lieu vi mo/Tieu Dung/Ban Le HH DV/MoM.txt");
-            gDPNamController.FillData(1, "Month", "YoY", "%", "Du lieu vi mo/Tieu Dung/Ban Le HH DV/YoY.txt");
+            //gDPNamController.FillData(1, "Month", "Value", "Tỷ", "Du lieu vi mo/Tieu Dung/Ban Le HH DV/Value.txt");
+            //gDPNamController.FillData(1, "Month", "MoM", "%", "Du lieu vi mo/Tieu Dung/Ban Le HH DV/MoM.txt");
+            //gDPNamController.FillData(1, "Month", "YoY", "%", "Du lieu vi mo/Tieu Dung/Ban Le HH DV/YoY.txt");
 
-            gDPNamController.FillData(8, "Month", "Value", "", "Du lieu vi mo/Dau Tu/Dang ky kinh doanh/Value.txt");
-            gDPNamController.FillData(8, "Month", "MoM", "%", "Du lieu vi mo/Dau Tu/Dang ky kinh doanh/MoM.txt");
-            gDPNamController.FillData(8, "Month", "YoY", "%", "Du lieu vi mo/Dau Tu/Dang ky kinh doanh/YoY.txt");
+            //gDPNamController.FillData(8, "Month", "Value", "", "Du lieu vi mo/Dau Tu/Dang ky kinh doanh/Value.txt");
+            //gDPNamController.FillData(8, "Month", "MoM", "%", "Du lieu vi mo/Dau Tu/Dang ky kinh doanh/MoM.txt");
+            //gDPNamController.FillData(8, "Month", "YoY", "%", "Du lieu vi mo/Dau Tu/Dang ky kinh doanh/YoY.txt");
 
-            gDPNamController.FillData(9, "Month", "Value", "Nghìn tỷ", "Du lieu vi mo/Dau Tu/Von dau tu phat trien xa hoi/Value.txt");
-            gDPNamController.FillData(9, "Month", "QoQ", "%", "Du lieu vi mo/Dau Tu/Von dau tu phat trien xa hoi/QoQ.txt");
-            gDPNamController.FillData(9, "Month", "YoY", "%", "Du lieu vi mo/Dau Tu/Von dau tu phat trien xa hoi/YoY.txt");
+            //gDPNamController.FillData(9, "Month", "Value", "Nghìn tỷ", "Du lieu vi mo/Dau Tu/Von dau tu phat trien xa hoi/Value.txt");
+            //gDPNamController.FillData(9, "Month", "QoQ", "%", "Du lieu vi mo/Dau Tu/Von dau tu phat trien xa hoi/QoQ.txt");
+            //gDPNamController.FillData(9, "Month", "YoY", "%", "Du lieu vi mo/Dau Tu/Von dau tu phat trien xa hoi/YoY.txt");
 
-            gDPNamController.FillData(10, "Month", "Value", "Tỷ", "Du lieu vi mo/Dau Tu/Von dau tu tu nsnn/Value.txt");
-            gDPNamController.FillData(10, "Month", "MoM", "%", "Du lieu vi mo/Dau Tu/Von dau tu tu nsnn/MoM.txt");
-            gDPNamController.FillData(10, "Month", "YoY", "%", "Du lieu vi mo/Dau Tu/Von dau tu tu nsnn/YoY.txt");
+            //gDPNamController.FillData(10, "Month", "Value", "Tỷ", "Du lieu vi mo/Dau Tu/Von dau tu tu nsnn/Value.txt");
+            //gDPNamController.FillData(10, "Month", "MoM", "%", "Du lieu vi mo/Dau Tu/Von dau tu tu nsnn/MoM.txt");
+            //gDPNamController.FillData(10, "Month", "YoY", "%", "Du lieu vi mo/Dau Tu/Von dau tu tu nsnn/YoY.txt");
 
-            gDPNamController.FillData(11, "Month", "Value", "Điểm", "Du lieu vi mo/San Xuat/IIP/Value.txt");
-            gDPNamController.FillData(11, "Month", "YoY", "%", "Du lieu vi mo/San Xuat/IIP/YoY.txt");
+            //gDPNamController.FillData(11, "Month", "Value", "Điểm", "Du lieu vi mo/San Xuat/IIP/Value.txt");
+            //gDPNamController.FillData(11, "Month", "YoY", "%", "Du lieu vi mo/San Xuat/IIP/YoY.txt");
 
-            gDPNamController.FillData(12, "Month", "Value", "", "Du lieu vi mo/San Xuat/San pham cong nghiep/Value.txt");
-            gDPNamController.FillData(12, "Month", "MoM", "%", "Du lieu vi mo/San Xuat/San pham cong nghiep/MoM.txt");
-            gDPNamController.FillData(12, "Month", "YoY", "%", "Du lieu vi mo/San Xuat/San pham cong nghiep/YoY.txt");
-
-
-            gDPNamController.FillData(13, "Quarter", "QoQ", "%", "Du lieu vi mo/San Xuat/Chi so gia van tai, kho bai/QoQ.txt");
-            gDPNamController.FillData(13, "Quarter", "YoY", "%", "Du lieu vi mo/San Xuat/Chi so gia van tai, kho bai/YoY.txt");
-
-            gDPNamController.FillData(14, "Quarter", "QoQ", "%", "Du lieu vi mo/San Xuat/Chi so gia dau vao san xuat/QoQ.txt");
-            gDPNamController.FillData(14, "Quarter", "YoY", "%", "Du lieu vi mo/San Xuat/Chi so gia dau vao san xuat/YoY.txt");
-
-            gDPNamController.FillData(15, "Quarter", "QoQ", "%", "Du lieu vi mo/San Xuat/PPI/QoQ.txt");
-            gDPNamController.FillData(15, "Quarter", "YoY", "%", "Du lieu vi mo/San Xuat/PPI/YoY.txt");
-
-            gDPNamController.FillData(16, "Month", "Value", "", "Du lieu vi mo/FDI/Dau tu truc tiep tu nuoc ngoai/Value.txt");
-            gDPNamController.FillData(16, "Month", "MoM", "%", "Du lieu vi mo/FDI/Dau tu truc tiep tu nuoc ngoai/MoM.txt");
-            gDPNamController.FillData(16, "Month", "YoY", "%", "Du lieu vi mo/FDI/Dau tu truc tiep tu nuoc ngoai/YoY.txt");
-
-            gDPNamController.FillData(17, "Month", "Value", "Triệu USD", "Du lieu vi mo/FDI/FDI Dang ky theo linh vuc/Value.txt");
-            gDPNamController.FillData(17, "Month", "MoM", "%", "Du lieu vi mo/FDI/FDI Dang ky theo linh vuc/MoM.txt");
-            gDPNamController.FillData(17, "Month", "YoY", "%", "Du lieu vi mo/FDI/FDI Dang ky theo linh vuc/YoY.txt");
-
-            gDPNamController.FillData(18, "Month", "Value", "Triệu USD", "Du lieu vi mo/FDI/FDI Dang ky theo quoc gia/Value.txt");
-            gDPNamController.FillData(18, "Month", "MoM", "%", "Du lieu vi mo/FDI/FDI Dang ky theo quoc gia/MoM.txt");
-            gDPNamController.FillData(18, "Month", "YoY", "%", "Du lieu vi mo/FDI/FDI Dang ky theo quoc gia/YoY.txt");
-
-            gDPNamController.FillData(19, "Month", "Value", "Triệu USD", "Du lieu vi mo/FDI/FDI Dang Ky Theo Tinh Thanh/Value.txt");
-            gDPNamController.FillData(19, "Month", "MoM", "%", "Du lieu vi mo/FDI/FDI Dang Ky Theo Tinh Thanh/MoM.txt");
-            gDPNamController.FillData(19, "Month", "YoY", "%", "Du lieu vi mo/FDI/FDI Dang Ky Theo Tinh Thanh/YoY.txt");
-
-            gDPNamController.FillData(20, "Month", "Value", "Triệu USD", "Du lieu vi mo/FDI/FDI Luy Ke Chua Thuc hien/Value.txt");
-            gDPNamController.FillData(20, "Month", "MoM", "%", "Du lieu vi mo/FDI/FDI Luy Ke Chua Thuc hien/MoM.txt");
-            gDPNamController.FillData(20, "Month", "YoY", "%", "Du lieu vi mo/FDI/FDI Luy Ke Chua Thuc hien/YoY.txt");
+            //gDPNamController.FillData(12, "Month", "Value", "", "Du lieu vi mo/San Xuat/San pham cong nghiep/Value.txt");
+            //gDPNamController.FillData(12, "Month", "MoM", "%", "Du lieu vi mo/San Xuat/San pham cong nghiep/MoM.txt");
+            //gDPNamController.FillData(12, "Month", "YoY", "%", "Du lieu vi mo/San Xuat/San pham cong nghiep/YoY.txt");
 
 
+            //gDPNamController.FillData(13, "Quarter", "QoQ", "%", "Du lieu vi mo/San Xuat/Chi so gia van tai, kho bai/QoQ.txt");
+            //gDPNamController.FillData(13, "Quarter", "YoY", "%", "Du lieu vi mo/San Xuat/Chi so gia van tai, kho bai/YoY.txt");
 
-            gDPNamController.FillData(21, "Month", "Value", "Triệu USD", "Du lieu vi mo/Xuat nhap khau/Xuat nhap khau/Value.txt");
-            gDPNamController.FillData(21, "Month", "MoM", "%", "Du lieu vi mo/Xuat nhap khau/Xuat nhap khau/MoM.txt");
-            gDPNamController.FillData(21, "Month", "YoY", "%", "Du lieu vi mo/Xuat nhap khau/Xuat nhap khau/YoY.txt");
+            //gDPNamController.FillData(14, "Quarter", "QoQ", "%", "Du lieu vi mo/San Xuat/Chi so gia dau vao san xuat/QoQ.txt");
+            //gDPNamController.FillData(14, "Quarter", "YoY", "%", "Du lieu vi mo/San Xuat/Chi so gia dau vao san xuat/YoY.txt");
 
-            gDPNamController.FillData(22, "Month", "Value", "USD/KG", "Du lieu vi mo/Xuat nhap khau/Gia Xuat Nhap Khau/Value.txt");
+            //gDPNamController.FillData(15, "Quarter", "QoQ", "%", "Du lieu vi mo/San Xuat/PPI/QoQ.txt");
+            //gDPNamController.FillData(15, "Quarter", "YoY", "%", "Du lieu vi mo/San Xuat/PPI/YoY.txt");
 
+            //gDPNamController.FillData(16, "Month", "Value", "", "Du lieu vi mo/FDI/Dau tu truc tiep tu nuoc ngoai/Value.txt");
+            //gDPNamController.FillData(16, "Month", "MoM", "%", "Du lieu vi mo/FDI/Dau tu truc tiep tu nuoc ngoai/MoM.txt");
+            //gDPNamController.FillData(16, "Month", "YoY", "%", "Du lieu vi mo/FDI/Dau tu truc tiep tu nuoc ngoai/YoY.txt");
 
-            gDPNamController.FillData(23, "Month", "Value", "Triệu USD", "Du lieu vi mo/Xuat nhap khau/Xuat khau theo mat hang/Value.txt");
-            gDPNamController.FillData(23, "Month", "MoM", "%", "Du lieu vi mo/Xuat nhap khau/Xuat khau theo mat hang/MoM.txt");
-            gDPNamController.FillData(23, "Month", "YoY", "%", "Du lieu vi mo/Xuat nhap khau/Xuat khau theo mat hang/YoY.txt");
+            //gDPNamController.FillData(17, "Month", "Value", "Triệu USD", "Du lieu vi mo/FDI/FDI Dang ky theo linh vuc/Value.txt");
+            //gDPNamController.FillData(17, "Month", "MoM", "%", "Du lieu vi mo/FDI/FDI Dang ky theo linh vuc/MoM.txt");
+            //gDPNamController.FillData(17, "Month", "YoY", "%", "Du lieu vi mo/FDI/FDI Dang ky theo linh vuc/YoY.txt");
 
-            gDPNamController.FillData(24, "Month", "Value", "Triệu USD", "Du lieu vi mo/Xuat nhap khau/Nhap Khau Theo mat Hang/Value.txt");
-            gDPNamController.FillData(24, "Month", "MoM", "%", "Du lieu vi mo/Xuat nhap khau/Nhap Khau Theo mat Hang/MoM.txt");
-            gDPNamController.FillData(24, "Month", "YoY", "%", "Du lieu vi mo/Xuat nhap khau/Nhap Khau Theo mat Hang/YoY.txt");
+            //gDPNamController.FillData(18, "Month", "Value", "Triệu USD", "Du lieu vi mo/FDI/FDI Dang ky theo quoc gia/Value.txt");
+            //gDPNamController.FillData(18, "Month", "MoM", "%", "Du lieu vi mo/FDI/FDI Dang ky theo quoc gia/MoM.txt");
+            //gDPNamController.FillData(18, "Month", "YoY", "%", "Du lieu vi mo/FDI/FDI Dang ky theo quoc gia/YoY.txt");
 
-            gDPNamController.FillData(25, "Month", "Value", "Triệu USD", "Du lieu vi mo/Xuat nhap khau/Xuat khau mat hang- quoc gia/Value.txt");
-            gDPNamController.FillData(25, "Month", "MoM", "%", "Du lieu vi mo/Xuat nhap khau/Xuat khau mat hang- quoc gia/MoM.txt");
-            gDPNamController.FillData(25, "Month", "YoY", "%", "Du lieu vi mo/Xuat nhap khau/Xuat khau mat hang- quoc gia/YoY.txt");
+            //gDPNamController.FillData(19, "Month", "Value", "Triệu USD", "Du lieu vi mo/FDI/FDI Dang Ky Theo Tinh Thanh/Value.txt");
+            //gDPNamController.FillData(19, "Month", "MoM", "%", "Du lieu vi mo/FDI/FDI Dang Ky Theo Tinh Thanh/MoM.txt");
+            //gDPNamController.FillData(19, "Month", "YoY", "%", "Du lieu vi mo/FDI/FDI Dang Ky Theo Tinh Thanh/YoY.txt");
 
-            gDPNamController.FillData(26, "Month", "Value", "Triệu USD", "Du lieu vi mo/Xuat nhap khau/Nhap khau mat hang - quoc gia/Value.txt");
-            gDPNamController.FillData(26, "Month", "MoM", "%", "Du lieu vi mo/Xuat nhap khau/Nhap khau mat hang - quoc gia/MoM.txt");
-            gDPNamController.FillData(26, "Month", "YoY", "%", "Du lieu vi mo/Xuat nhap khau/Nhap khau mat hang - quoc gia/YoY.txt");
-
-            gDPNamController.FillData(27, "Month", "Value", "Triệu USD", "Du lieu vi mo/Xuat nhap khau/Xuat khau theo quoc gia - mat hang/Value.txt");
-            gDPNamController.FillData(27, "Month", "MoM", "%", "Du lieu vi mo/Xuat nhap khau/Xuat khau theo quoc gia - mat hang/MoM.txt");
-            gDPNamController.FillData(27, "Month", "YoY", "%", "Du lieu vi mo/Xuat nhap khau/Xuat khau theo quoc gia - mat hang/YoY.txt");
+            //gDPNamController.FillData(20, "Month", "Value", "Triệu USD", "Du lieu vi mo/FDI/FDI Luy Ke Chua Thuc hien/Value.txt");
+            //gDPNamController.FillData(20, "Month", "MoM", "%", "Du lieu vi mo/FDI/FDI Luy Ke Chua Thuc hien/MoM.txt");
+            //gDPNamController.FillData(20, "Month", "YoY", "%", "Du lieu vi mo/FDI/FDI Luy Ke Chua Thuc hien/YoY.txt");
 
 
 
+            //gDPNamController.FillData(21, "Month", "Value", "Triệu USD", "Du lieu vi mo/Xuat nhap khau/Xuat nhap khau/Value.txt");
+            //gDPNamController.FillData(21, "Month", "MoM", "%", "Du lieu vi mo/Xuat nhap khau/Xuat nhap khau/MoM.txt");
+            //gDPNamController.FillData(21, "Month", "YoY", "%", "Du lieu vi mo/Xuat nhap khau/Xuat nhap khau/YoY.txt");
+
+            //gDPNamController.FillData(22, "Month", "Value", "USD/KG", "Du lieu vi mo/Xuat nhap khau/Gia Xuat Nhap Khau/Value.txt");
 
 
-            gDPNamController.FillData(28, "Month", "Value", "Triệu USD", "Du lieu vi mo/Xuat nhap khau/Nhap khau quoc gia - mat hang/Value.txt");
-            gDPNamController.FillData(28, "Month", "MoM", "", "Du lieu vi mo/Xuat nhap khau/Nhap khau quoc gia - mat hang/MoM.txt");
-            gDPNamController.FillData(28, "Month", "YoY", "", "Du lieu vi mo/Xuat nhap khau/Nhap khau quoc gia - mat hang/YoY.txt");
+            //gDPNamController.FillData(23, "Month", "Value", "Triệu USD", "Du lieu vi mo/Xuat nhap khau/Xuat khau theo mat hang/Value.txt");
+            //gDPNamController.FillData(23, "Month", "MoM", "%", "Du lieu vi mo/Xuat nhap khau/Xuat khau theo mat hang/MoM.txt");
+            //gDPNamController.FillData(23, "Month", "YoY", "%", "Du lieu vi mo/Xuat nhap khau/Xuat khau theo mat hang/YoY.txt");
 
-            gDPNamController.FillData(29, "Month", "Value", "Nghìn người", "Du lieu vi mo/Van Tai/Khach quoc te theo loai hinh/Value.txt");
-            gDPNamController.FillData(29, "Month", "MoM", "", "Du lieu vi mo/Van Tai/Khach quoc te theo loai hinh/MoM.txt");
-            gDPNamController.FillData(29, "Month", "YoY", "", "Du lieu vi mo/Van Tai/Khach quoc te theo loai hinh/YoY.txt");
+            //gDPNamController.FillData(24, "Month", "Value", "Triệu USD", "Du lieu vi mo/Xuat nhap khau/Nhap Khau Theo mat Hang/Value.txt");
+            //gDPNamController.FillData(24, "Month", "MoM", "%", "Du lieu vi mo/Xuat nhap khau/Nhap Khau Theo mat Hang/MoM.txt");
+            //gDPNamController.FillData(24, "Month", "YoY", "%", "Du lieu vi mo/Xuat nhap khau/Nhap Khau Theo mat Hang/YoY.txt");
 
-            gDPNamController.FillData(30, "Month", "Value", "Nghìn người", "Du lieu vi mo/Van Tai/Khach quoc te theo quoc gia/Value.txt");
-            gDPNamController.FillData(30, "Month", "MoM", "", "Du lieu vi mo/Van Tai/Khach quoc te theo quoc gia/MoM.txt");
-            gDPNamController.FillData(30, "Month", "YoY", "", "Du lieu vi mo/Van Tai/Khach quoc te theo quoc gia/YoY.txt");
+            //gDPNamController.FillData(25, "Month", "Value", "Triệu USD", "Du lieu vi mo/Xuat nhap khau/Xuat khau mat hang- quoc gia/Value.txt");
+            //gDPNamController.FillData(25, "Month", "MoM", "%", "Du lieu vi mo/Xuat nhap khau/Xuat khau mat hang- quoc gia/MoM.txt");
+            //gDPNamController.FillData(25, "Month", "YoY", "%", "Du lieu vi mo/Xuat nhap khau/Xuat khau mat hang- quoc gia/YoY.txt");
 
-            gDPNamController.FillData(31, "Month", "Value", "Nghìn người", "Du lieu vi mo/Van Tai/Van chuyen hanh khach/Value.txt");
-            gDPNamController.FillData(31, "Month", "MoM", "", "Du lieu vi mo/Van Tai/Van chuyen hanh khach/MoM.txt");
-            gDPNamController.FillData(31, "Month", "YoY", "", "Du lieu vi mo/Van Tai/Van chuyen hanh khach/YoY.txt");
+            //gDPNamController.FillData(26, "Month", "Value", "Triệu USD", "Du lieu vi mo/Xuat nhap khau/Nhap khau mat hang - quoc gia/Value.txt");
+            //gDPNamController.FillData(26, "Month", "MoM", "%", "Du lieu vi mo/Xuat nhap khau/Nhap khau mat hang - quoc gia/MoM.txt");
+            //gDPNamController.FillData(26, "Month", "YoY", "%", "Du lieu vi mo/Xuat nhap khau/Nhap khau mat hang - quoc gia/YoY.txt");
 
-            gDPNamController.FillData(31, "Month", "Value", "Nghìn người", "Du lieu vi mo/Van Tai/Van chuyen hanh khach/Value.txt");
-            gDPNamController.FillData(31, "Month", "MoM", "", "Du lieu vi mo/Van Tai/Van chuyen hanh khach/MoM.txt");
-            gDPNamController.FillData(31, "Month", "YoY", "", "Du lieu vi mo/Van Tai/Van chuyen hanh khach/YoY.txt");
+            //gDPNamController.FillData(27, "Month", "Value", "Triệu USD", "Du lieu vi mo/Xuat nhap khau/Xuat khau theo quoc gia - mat hang/Value.txt");
+            //gDPNamController.FillData(27, "Month", "MoM", "%", "Du lieu vi mo/Xuat nhap khau/Xuat khau theo quoc gia - mat hang/MoM.txt");
+            //gDPNamController.FillData(27, "Month", "YoY", "%", "Du lieu vi mo/Xuat nhap khau/Xuat khau theo quoc gia - mat hang/YoY.txt");
 
-            gDPNamController.FillData(32, "Month", "Value", "Nghìn người", "Du lieu vi mo/Van Tai/Luan chuyen hanh khach/Value.txt");
-            gDPNamController.FillData(32, "Month", "MoM", "%", "Du lieu vi mo/Van Tai/Luan chuyen hanh khach/MoM.txt");
-            gDPNamController.FillData(32, "Month", "YoY", "%", "Du lieu vi mo/Van Tai/Luan chuyen hanh khach/YoY.txt");
 
-            gDPNamController.FillData(32, "Month", "Value", "Nghìn tấn", "Du lieu vi mo/Van Tai/Van chuyen hang hoa/Value.txt");
-            gDPNamController.FillData(32, "Month", "MoM", "%", "Du lieu vi mo/Van Tai/Van chuyen hang hoa/MoM.txt");
-            gDPNamController.FillData(32, "Month", "YoY", "%", "Du lieu vi mo/Van Tai/Van chuyen hang hoa/YoY.txt");
 
-            gDPNamController.FillData(33, "Month", "Value", "Nghìn tấn", "Du lieu vi mo/Van Tai/Van chuyen hang hoa/Value.txt");
-            gDPNamController.FillData(33, "Month", "MoM", "%", "Du lieu vi mo/Van Tai/Van chuyen hang hoa/MoM.txt");
-            gDPNamController.FillData(33, "Month", "YoY", "%", "Du lieu vi mo/Van Tai/Van chuyen hang hoa/YoY.txt");
+
+
+            //gDPNamController.FillData(28, "Month", "Value", "Triệu USD", "Du lieu vi mo/Xuat nhap khau/Nhap khau quoc gia - mat hang/Value.txt");
+            //gDPNamController.FillData(28, "Month", "MoM", "", "Du lieu vi mo/Xuat nhap khau/Nhap khau quoc gia - mat hang/MoM.txt");
+            //gDPNamController.FillData(28, "Month", "YoY", "", "Du lieu vi mo/Xuat nhap khau/Nhap khau quoc gia - mat hang/YoY.txt");
+
+            //gDPNamController.FillData(29, "Month", "Value", "Nghìn người", "Du lieu vi mo/Van Tai/Khach quoc te theo loai hinh/Value.txt");
+            //gDPNamController.FillData(29, "Month", "MoM", "", "Du lieu vi mo/Van Tai/Khach quoc te theo loai hinh/MoM.txt");
+            //gDPNamController.FillData(29, "Month", "YoY", "", "Du lieu vi mo/Van Tai/Khach quoc te theo loai hinh/YoY.txt");
+
+            //gDPNamController.FillData(30, "Month", "Value", "Nghìn người", "Du lieu vi mo/Van Tai/Khach quoc te theo quoc gia/Value.txt");
+            //gDPNamController.FillData(30, "Month", "MoM", "", "Du lieu vi mo/Van Tai/Khach quoc te theo quoc gia/MoM.txt");
+            //gDPNamController.FillData(30, "Month", "YoY", "", "Du lieu vi mo/Van Tai/Khach quoc te theo quoc gia/YoY.txt");
+
+            //gDPNamController.FillData(31, "Month", "Value", "Nghìn người", "Du lieu vi mo/Van Tai/Van chuyen hanh khach/Value.txt");
+            //gDPNamController.FillData(31, "Month", "MoM", "", "Du lieu vi mo/Van Tai/Van chuyen hanh khach/MoM.txt");
+            //gDPNamController.FillData(31, "Month", "YoY", "", "Du lieu vi mo/Van Tai/Van chuyen hanh khach/YoY.txt");
+
+
+
+            //gDPNamController.FillData(32, "Month", "Value", "Triệu HK/Km", "Du lieu vi mo/Van Tai/Luan chuyen hanh khach/Value.txt");
+            //gDPNamController.FillData(32, "Month", "MoM", "%", "Du lieu vi mo/Van Tai/Luan chuyen hanh khach/MoM.txt");
+            //gDPNamController.FillData(32, "Month", "YoY", "%", "Du lieu vi mo/Van Tai/Luan chuyen hanh khach/YoY.txt");
+
+
+            //gDPNamController.FillData(33, "Month", "Value", "Nghìn tấn", "Du lieu vi mo/Van Tai/Van chuyen hang hoa/Value.txt");
+            //gDPNamController.FillData(33, "Month", "MoM", "%", "Du lieu vi mo/Van Tai/Van chuyen hang hoa/MoM.txt");
+            //gDPNamController.FillData(33, "Month", "YoY", "%", "Du lieu vi mo/Van Tai/Van chuyen hang hoa/YoY.txt");
 
             gDPNamController.FillData(34, "Month", "Value", "Triệu tấn/Km", "Du lieu vi mo/Van Tai/luan chuyen hang hoa/Value.txt");
             gDPNamController.FillData(34, "Month", "MoM", "%", "Du lieu vi mo/Van Tai/luan chuyen hang hoa/MoM.txt");
             gDPNamController.FillData(34, "Month", "YoY", "%", "Du lieu vi mo/Van Tai/luan chuyen hang hoa/YoY.txt");
 
-            gDPNamController.FillData(35, "Month", "Value", "USD mm", "Du lieu vi mo/Ty gia/du tru ngoai hoi/Value.txt");
-            gDPNamController.FillData(35, "Month", "MoM", "%", "Du lieu vi mo/Ty gia/du tru ngoai hoi/MoM.txt");
+            //gDPNamController.FillData(35, "Month", "Value", "USD mm", "Du lieu vi mo/Ty gia/du tru ngoai hoi/Value.txt");
+            //gDPNamController.FillData(35, "Month", "MoM", "%", "Du lieu vi mo/Ty gia/du tru ngoai hoi/MoM.txt");
 
-            gDPNamController.FillData(36, "Quarter", "Q", "Triệu USD", "Du lieu vi mo/Ty gia/Can can thanh toan/Q.txt");
-            gDPNamController.FillData(36, "Quarter", "YTD", "Triệu USD", "Du lieu vi mo/Ty gia/Can can thanh toan/YTD.txt");
-            gDPNamController.FillData(36, "Quarter", "TTM", "Triệu USD", "Du lieu vi mo/Ty gia/Can can thanh toan/TTM.txt");
+            //gDPNamController.FillData(36, "Quarter", "Q", "Triệu USD", "Du lieu vi mo/Ty gia/Can can thanh toan/Q.txt");
+            //gDPNamController.FillData(36, "Quarter", "YTD", "Triệu USD", "Du lieu vi mo/Ty gia/Can can thanh toan/YTD.txt");
+            //gDPNamController.FillData(36, "Quarter", "TTM", "Triệu USD", "Du lieu vi mo/Ty gia/Can can thanh toan/TTM.txt");
 
-            gDPNamController.FillData(37, "Quarter", "Value", "Tỷ", "Du lieu vi mo/Tai khoa/Thu ngan sach/Value.txt");
-            gDPNamController.FillData(37, "Quarter", "YoY", "%", "Du lieu vi mo/Tai khoa/Thu ngan sach/YoY.txt");
+            //gDPNamController.FillData(37, "Quarter", "Value", "Tỷ", "Du lieu vi mo/Tai khoa/Thu ngan sach/Value.txt");
+            //gDPNamController.FillData(37, "Quarter", "YoY", "%", "Du lieu vi mo/Tai khoa/Thu ngan sach/YoY.txt");
 
-            gDPNamController.FillData(38, "Quarter", "Value", "Tỷ", "Du lieu vi mo/Tai khoa/Chi ngan sach/Value.txt");
-            gDPNamController.FillData(38, "Quarter", "YoY", "%", "Du lieu vi mo/Tai khoa/Chi ngan sach/YoY.txt");
+            //gDPNamController.FillData(38, "Quarter", "Value", "Tỷ", "Du lieu vi mo/Tai khoa/Chi ngan sach/Value.txt");
+            //gDPNamController.FillData(38, "Quarter", "YoY", "%", "Du lieu vi mo/Tai khoa/Chi ngan sach/YoY.txt");
 
-            gDPNamController.FillData(39, "Year", "Value", "Tỷ", "Du lieu vi mo/Tai khoa/vay no chinh phu/Value.txt");
-            gDPNamController.FillData(39, "Year", "YoY", "%", "Du lieu vi mo/Tai khoa/vay no chinh phu/YoY.txt");
+            //gDPNamController.FillData(39, "Year", "Value", "Tỷ", "Du lieu vi mo/Tai khoa/vay no chinh phu/Value.txt");
+            //gDPNamController.FillData(39, "Year", "YoY", "%", "Du lieu vi mo/Tai khoa/vay no chinh phu/YoY.txt");
 
-            gDPNamController.FillData(40, "Year", "Value", "Tỷ", "Du lieu vi mo/Tai khoa/vay no chinh phu bao lanh/Value.txt");
-            gDPNamController.FillData(40, "Year", "YoY", "%", "Du lieu vi mo/Tai khoa/vay no chinh phu bao lanh/YoY.txt");
+            //gDPNamController.FillData(40, "Year", "Value", "Tỷ", "Du lieu vi mo/Tai khoa/vay no chinh phu bao lanh/Value.txt");
+            //gDPNamController.FillData(40, "Year", "YoY", "%", "Du lieu vi mo/Tai khoa/vay no chinh phu bao lanh/YoY.txt");
 
-            gDPNamController.FillData(41, "Year", "Value", "Tỷ", "Du lieu vi mo/Tai khoa/vay no chinh quyen dia phuong/Value.txt");
-            gDPNamController.FillData(41, "Year", "YoY", "%", "Du lieu vi mo/Tai khoa/vay no chinh quyen dia phuong/YoY.txt");
+            //gDPNamController.FillData(41, "Year", "Value", "Tỷ", "Du lieu vi mo/Tai khoa/vay no chinh quyen dia phuong/Value.txt");
+            //gDPNamController.FillData(41, "Year", "YoY", "%", "Du lieu vi mo/Tai khoa/vay no chinh quyen dia phuong/YoY.txt");
 
-            gDPNamController.FillData(42, "Year", "Value", "Tỷ", "Du lieu vi mo/Tai khoa/Vay no ngoai quoc gia/Value.txt");
-            gDPNamController.FillData(42, "Year", "YoY", "%", "Du lieu vi mo/Tai khoa/Vay no ngoai quoc gia/YoY.txt");
+            //gDPNamController.FillData(42, "Year", "Value", "Tỷ", "Du lieu vi mo/Tai khoa/Vay no ngoai quoc gia/Value.txt");
+            //gDPNamController.FillData(42, "Year", "YoY", "%", "Du lieu vi mo/Tai khoa/Vay no ngoai quoc gia/YoY.txt");
 
 
 
@@ -212,7 +207,8 @@ namespace DataMacroWi
             TrashController trashController = new TrashController();
             //trashController.Update_KeyID_Row_Xuat_Khau_Quoc_Gia_Mat_Hang();
             XuatNhapKhauController xuatNhapKhauController = new XuatNhapKhauController();
-            xuatNhapKhauController.Load_MatHang_QuocGia();
+            //xuatNhapKhauController.Load_MatHang_QuocGia();
+            trashController.Update_KeyID_Row_Nhap_Khau_Quoc_Gia_Mat_Hang();
             MessageBox.Show("Done");
         }
 
@@ -495,9 +491,32 @@ namespace DataMacroWi
             //fDIController.Load_FDI_DauTuTrucTiepTuNuocNgoai();
             //fDIController.Load_FDI_Tinh_Thanh();
 
-            XuatNhapKhauController xuatNhapKhauController = new XuatNhapKhauController();
-            xuatNhapKhauController.Load_XuatNhapKhau_QuocGia_MatHang();
+            //XuatNhapKhauController xuatNhapKhauController = new XuatNhapKhauController();
+            //xuatNhapKhauController.Load_XuatNhapKhau_QuocGia_MatHang();
+            //xuatNhapKhauController.Load_NhapKhau_QuocGia_MatHang();
+            //xuatNhapKhauController.Load_NhapKhau_MatHang_QuocGia();
 
+            //xuatNhapKhauController.Load_MatHang_QuocGia();
+
+            VanTaiController vanTaiController = new VanTaiController();
+            //vanTaiController.Load_VanTai_KhachQuocTeTheoLoaiHinh();
+            //vanTaiController.Load_VanTai_KhachQuocTeTheoQuocGia();
+            //vanTaiController.Load_VanTai_VanTaiHanhKhach();
+            //vanTaiController.Load_VanTai_VanTaiHanhKhach();
+            //vanTaiController.Load_VanTai_LuanChuyenHanhKhach();
+            //vanTaiController.Load_VanTai_VanChuyenHangHoa();
+            //vanTaiController.Load_VanTai_LuanChuyenHangHoa();
+
+            TieuDungController tieuDungController = new TieuDungController();
+            //tieuDungController.Load_TieuDung_CPI();
+            //tieuDungController.Load_TieuDung_BanLeHangHoaVaDichVu();
+
+            DauTuController dauTuController = new DauTuController();
+            //dauTuController.Load_DauTu_DangKyKinhDoanh();
+            //dauTuController.Load_DauTu_VonDauTuTuNSNN();
+
+            SanXuatController sanXuatController = new SanXuatController();
+            sanXuatController.Load_SanXuat_IIP();
             MessageBox.Show("Done");
         }
 
@@ -594,6 +613,33 @@ namespace DataMacroWi
             rowService.Delete(row);
             var list = new BindingList<Row>(rowService.Get_Rows_By_IdTable(row.ID_Table));
             dgv_Row.DataSource = list;
+        }
+
+        private void btn_Table_ClearAllTable_Click(object sender, EventArgs e)
+        {
+            MacroTypeService macroTypeService = new MacroTypeService();
+            MacroType macroType = new MacroType();
+            TableService tableService = new TableService();
+            macroType.Id = Int32.Parse(txt_MacroType__ID.Text);
+            macroType.IdDetail = Int32.Parse(txt_MacroType_ID_Detail.Text);
+            macroType.KeyID = txt_MacroType_KeyID.Text;
+            macroType.KeyIDMacro = txt_MacroType_KeyIDMacro.Text;
+            macroType.Name = txt_MacroType_Name.Text;
+            macroType.Stt = Int32.Parse(txt_MacroType_Stt.Text);
+
+            macroTypeService.ClearAllTable(macroType);
+            var list = new BindingList<Table>(tableService.Get_Table_By_IDMacroType(macroType.Id));
+            dgvTable.DataSource = list;
+        }
+
+        private void btn_Table_Delete_Click(object sender, EventArgs e)
+        {
+            TableService tableService = new TableService();
+            Table table = new Table();
+            table.Id = int.Parse(txt_Table_ID.Text);
+            tableService.Delete(table);
+            var list = new BindingList<Table>(tableService.Get_Table_By_IDMacroType(int.Parse(txt_MacroType__ID.Text)));
+            dgvTable.DataSource = list;
         }
     }
 }

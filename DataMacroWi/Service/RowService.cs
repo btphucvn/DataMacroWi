@@ -349,7 +349,9 @@ namespace DataMacroWi.Service
                 + " stt='" + row.Stt + "', "
                 + " id_table='" + row.ID_Table + "', "
                 + " id_string='" + row.ID_String + "', "
+                + " yaxis='" + row.YAxis + "', "
                 + " name='" + row.Name + "' "
+
                 + " WHERE id = '" + row.ID + "'";
 
             NpgsqlCommand cmd = new NpgsqlCommand(query, conn);
@@ -413,7 +415,7 @@ namespace DataMacroWi.Service
 
             string query = "WITH rows_table AS " +
                 "(" +
-                "SELECT * FROM rows WHERE id_table=139 AND key_id like '%"+ keyID + "%'" +
+                "SELECT * FROM rows WHERE id_table="+idTable+" AND key_id like '%"+ keyID + "%'" +
                 "), row_value_table AS " +
                 "( " +
                 "SELECT * FROM rows_table INNER JOIN row_value ON rows_table.id=row_value.id_row " +

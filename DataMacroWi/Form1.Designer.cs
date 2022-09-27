@@ -63,6 +63,7 @@ namespace DataMacroWi
             this.label4 = new System.Windows.Forms.Label();
             this.txt_MacroType__ID = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btn_Table_ClearAllTable = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
             this.txt_Table_Unit = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
@@ -98,6 +99,7 @@ namespace DataMacroWi
             this.txt_Row_Data_Level2_Name = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.btnDelete = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
             this.txt_Row_Unit = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
@@ -116,7 +118,7 @@ namespace DataMacroWi
             this.label31 = new System.Windows.Forms.Label();
             this.txt_Row_Level = new System.Windows.Forms.TextBox();
             this.txtBug = new System.Windows.Forms.RichTextBox();
-            this.btnDelete = new System.Windows.Forms.Button();
+            this.btn_Table_Delete = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMacro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMacroType)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTable)).BeginInit();
@@ -433,6 +435,8 @@ namespace DataMacroWi
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.btn_Table_Delete);
+            this.groupBox3.Controls.Add(this.btn_Table_ClearAllTable);
             this.groupBox3.Controls.Add(this.label18);
             this.groupBox3.Controls.Add(this.txt_Table_Unit);
             this.groupBox3.Controls.Add(this.label17);
@@ -460,6 +464,16 @@ namespace DataMacroWi
             this.groupBox3.TabIndex = 10;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Table";
+            // 
+            // btn_Table_ClearAllTable
+            // 
+            this.btn_Table_ClearAllTable.Location = new System.Drawing.Point(528, 232);
+            this.btn_Table_ClearAllTable.Name = "btn_Table_ClearAllTable";
+            this.btn_Table_ClearAllTable.Size = new System.Drawing.Size(77, 23);
+            this.btn_Table_ClearAllTable.TabIndex = 42;
+            this.btn_Table_ClearAllTable.Text = "Xóa toàn bộ";
+            this.btn_Table_ClearAllTable.UseVisualStyleBackColor = true;
+            this.btn_Table_ClearAllTable.Click += new System.EventHandler(this.btn_Table_ClearAllTable_Click);
             // 
             // label18
             // 
@@ -768,6 +782,16 @@ namespace DataMacroWi
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Row";
             // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(171, 367);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(77, 23);
+            this.btnDelete.TabIndex = 42;
+            this.btnDelete.Text = "Xóa";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
             // label24
             // 
             this.label24.AutoSize = true;
@@ -917,15 +941,15 @@ namespace DataMacroWi
             this.txtBug.TabIndex = 54;
             this.txtBug.Text = "";
             // 
-            // btnDelete
+            // btn_Table_Delete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(171, 367);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(77, 23);
-            this.btnDelete.TabIndex = 42;
-            this.btnDelete.Text = "Xóa";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            this.btn_Table_Delete.Location = new System.Drawing.Point(183, 231);
+            this.btn_Table_Delete.Name = "btn_Table_Delete";
+            this.btn_Table_Delete.Size = new System.Drawing.Size(77, 23);
+            this.btn_Table_Delete.TabIndex = 43;
+            this.btn_Table_Delete.Text = "Xóa";
+            this.btn_Table_Delete.UseVisualStyleBackColor = true;
+            this.btn_Table_Delete.Click += new System.EventHandler(this.btn_Table_Delete_Click);
             // 
             // Form1
             // 
@@ -1069,6 +1093,8 @@ namespace DataMacroWi
         private System.Windows.Forms.TextBox txt_Row_Level;
         private System.Windows.Forms.RichTextBox txtBug;
         private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btn_Table_ClearAllTable;
+        private System.Windows.Forms.Button btn_Table_Delete;
     }
 }
 

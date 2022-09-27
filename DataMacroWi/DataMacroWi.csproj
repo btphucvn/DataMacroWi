@@ -137,13 +137,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\DauTuController.cs" />
     <Compile Include="Controller\FDIController.cs" />
     <Compile Include="Controller\FillDataController.cs" />
     <Compile Include="Controller\LoadDataExcelController.cs" />
     <Compile Include="Controller\SanLuongController.cs" />
+    <Compile Include="Controller\SanXuatController.cs" />
     <Compile Include="Controller\TableController.cs" />
+    <Compile Include="Controller\TieuDungController.cs" />
     <Compile Include="Controller\ToolController.cs" />
     <Compile Include="Controller\TrashController.cs" />
+    <Compile Include="Controller\VanTaiController.cs" />
     <Compile Include="Controller\XuatNhapKhauController.cs" />
     <Compile Include="DB\DBConnect.cs" />
     <Compile Include="DB\DBConnectPG.cs" />

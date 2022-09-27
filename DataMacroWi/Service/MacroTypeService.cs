@@ -229,5 +229,45 @@ namespace DataMacroWi.Service
 
         }
 
+        
+
+        public void ClearAllTable(MacroType macroType)
+        {
+            TableService tableService = new TableService();
+            RowService rowService = new RowService();
+            RowValueService rowValueService = new RowValueService();
+            List<Table> listTable = tableService.Get_Table_By_IDMacroType(macroType.Id);
+            foreach(Table table in listTable)
+            {
+                List<Row> listRow = rowService.Get_Rows_By_IdTable(table.Id);
+                foreach(Row row in listRow)
+                {
+                    rowValueService.Clear(row.ID);
+
+                }
+                rowService.Clear(table);
+            }
+            DBConnect dBConnect = new DBConnect();
+            NpgsqlConnection conn = dBConnect.ConnectPG();
+
+
+            string query = "DELETE FROM tables WHERE id_macro_type="+macroType.Id;
+
+            NpgsqlCommand cmd = new NpgsqlCommand(query, conn);
+            try
+            {
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                conn.Close();
+            }
+            catch (Exception a)
+            {
+                Form1._Form1.updateTxtBug("Lỗi: " + a.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
     }
 }

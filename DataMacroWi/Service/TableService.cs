@@ -410,6 +410,30 @@ namespace DataMacroWi.Service
 
         }
 
+        public void Delete(Table table)
+        {
+            DBConnect dBConnect = new DBConnect();
+            NpgsqlConnection conn = dBConnect.ConnectPG();
+            string query = "DELETE FROM tables WHERE id="+table.Id;
+            RowService rowService = new RowService();
+            rowService.Clear(table);
+            NpgsqlCommand cmd = new NpgsqlCommand(query, conn);
+
+            try
+            {
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                conn.Close();
+            }
+            catch (Exception a)
+            {
+                Form1._Form1.updateTxtBug("Xóa table thất bại, lỗi: "+a.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
         
     }
 }

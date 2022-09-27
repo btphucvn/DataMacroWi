@@ -11,6 +11,22 @@ namespace DataMacroWi.Extension
 {
     public static class Tool
     {
+        public static List<string> Sort_File_Name_By_Date_DESC(List<string> listFile)
+        {
+
+            List<double> listTimeStamp = new List<double>();
+            foreach (string fileName in listFile)
+            {
+                listTimeStamp.Add(Convert_DDMMYYYY_To_Timestamp(fileName.Replace(".xlsx", "")));
+            }
+            listTimeStamp = listTimeStamp.OrderByDescending(x=>x).ToList();
+            List<string> listResult = new List<string>();
+            foreach(double item in listTimeStamp)
+            {
+                listResult.Add(Convert_TimeStamp_To_DateString(item)+".xlsx");
+            }
+            return listResult;
+        }
         public static string RemoveAccents(this string text)
         {
             if (string.IsNullOrWhiteSpace(text))

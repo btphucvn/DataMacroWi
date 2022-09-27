@@ -13,7 +13,7 @@ namespace DataMacroWi.Extension
         private static string[] arrUnit = { "(Tỷ)","(Tỷ đồng)", "(Dự án)", "(Triệu USD)", "(Nghìn Người)"
                 , "(Nghìn tấn)", "(Triệu m3)", "(Triệu lít)"
         ,"(Triệu bao)","(Triệu m2)","(Triệu viên)","(Nghìn cái)","(Nghìn chiếc)"
-        ,"(Tỷ kwh)","(Triệu cái)","(Triệu đôi)","(Nghìn tỷ)","(Chiếc)","(DN)","(Triệu tấn)","(USD mn)","(Triệu tấn/Km)"};
+        ,"(Tỷ kwh)","(Triệu cái)","(Triệu đôi)","(Nghìn tỷ)","(Chiếc)","(DN)","(Triệu tấn)","(USD mn)","(Triệu tấn/Km)","(Triệu tấn.Km)","(triệu hk.km)"};
 
         private static string[] arrTableType = { "(YTD)","(TTM)" };
         public static string RemoveTableTypeFromTitle(string title)
